@@ -4,7 +4,10 @@ a dummy script for install omsa on debian/proxmox.
 Just simply run the script by typing 'bash discord-activies.sh' in your terminal and fill the question.
 # Warning
 
-#Manual INSTALL
+#Manual Install
+manual installation of omsa 
+just paste the following command in root
+```
 gpg --keyserver hkp://pool.sks-keyservers.net:80 --recv-key 1285491434D8786F
 gpg -a --export 1285491434D8786F | apt-key add -
 echo "deb http://linux.dell.com/repo/community/openmanage/930/bionic bionic main" > /etc/apt/sources.list.d/linux.dell.com.sources.list
@@ -33,3 +36,4 @@ apt update
 apt install srvadmin-all
 touch /opt/dell/srvadmin/lib64/openmanage/IGNORE_GENERATION
 srvadmin-services.sh enable && srvadmin-services.sh start
+```
