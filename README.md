@@ -2,9 +2,7 @@
 a dummy script for install omsa on debian/proxmox.
 # How to make it work ?
 Just simply run the script by typing 'bash discord-activies.sh' in your terminal and fill the question.
-# Warning
-
-#Manual Install
+# Manual Install
 manual installation of omsa 
 just paste the following command in root
 ```
